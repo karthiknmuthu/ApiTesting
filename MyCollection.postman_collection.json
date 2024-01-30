@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "25e3eb5c-de64-4b80-88d1-3f282a1a999c",
+		"name": "MyCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17501906",
+		"_collection_link": "https://orange-water-433447.postman.co/workspace/New-Team-Workspace~ef7a9c41-3367-4157-bd1a-3e80635b552b/collection/17501906-25e3eb5c-de64-4b80-88d1-3f282a1a999c?action=share&source=collection_link&creator=17501906"
+	},
+	"item": [
+		{
+			"name": "https://reqres.in/api/users?page=2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users?page=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"KarthikeyanMuthu\",\r\n    \"job\":\"Software Tester\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users?page",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"job\":\"testlead\",\r\n    \"CTC\":\"4.5Lpa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users/890",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"890"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://reqres.in/api/users/890",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users/890",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"890"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
